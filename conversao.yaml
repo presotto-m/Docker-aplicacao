@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: conversao-aula2
+  labels:
+spec: 
+  containers:
+  - name: conversao-aula2
+    image: matheuspresotto/conversao-temperatura:latest
+    ports:
+    - containerPort: 80
